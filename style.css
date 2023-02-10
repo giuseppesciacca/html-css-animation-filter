@@ -105,11 +105,22 @@
 
 /* #endregion SQUARE 6 7 8*/
 
+/* #region SQUARE 9*/
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s;
 }
 
+.ex-9-img:hover {
+    filter: sepia(0.7) saturate(1);
+    border-radius: 2rem;
+    scale: 1.5;
+}
+
+/* #endregion SQUARE 9*/
+
+/* #region SQUARE 10*/
 .ex-10-icon {
     font-size: 60px;
 }
