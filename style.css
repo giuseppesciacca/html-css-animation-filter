@@ -6,9 +6,10 @@
     transition: background-color 2s;
 }
 
-.ex-1-square:hover{
+.ex-1-square:hover {
     background-color: red;
 }
+
 /* #endregion SQUARE 1 */
 
 /* #region SQUARE 2 */
@@ -19,9 +20,10 @@
     transition: width 2s;
 }
 
-.ex-2-square:active{
+.ex-2-square:active {
     width: 100%;
 }
+
 /* #endregion SQUARE 2 */
 
 /* #region SQUARE 3 */
@@ -32,9 +34,10 @@
     transition: all 1s;
 }
 
-.ex-3-square:hover{
+.ex-3-square:hover {
     border-radius: 50%;
 }
+
 /* #endregion SQUARE 3 */
 
 /* #region SQUARE 4 */
@@ -45,18 +48,29 @@
     transition: all 2s;
 }
 
-.ex-4-square:hover{
+.ex-4-square:hover {
     opacity: 0%;
 }
+
 /* #endregion SQUARE 4 */
 
-
+/* #region SQUARE 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: all 0.5s;
 }
+
+.ex-5-square:hover {
+    scale: 1.5;
+}
+
+.ex-5-square:active {
+    scale: 0.5;
+}
+/* #endregion SQUARE 5 */
 
 .ex-6-img,
 .ex-7-img,
