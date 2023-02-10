@@ -173,6 +173,7 @@
 
 /* #endregion SQUARE 11*/
 
+/* #region SQUARE 12 13*/
 .ex-12-button,
 .ex-13-button {
     position: relative;
@@ -196,6 +197,29 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+
+}
+
+@keyframes whitetop {
+    25% {
+        left: 10%;
+    }
+
+    50% {
+        left: 30%;
+    }
+
+    75% {
+        left: 60%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: whitetop 3s linear infinite;
 }
 
 .ex-12-bottom-white,
@@ -207,3 +231,31 @@
     width: 60px;
     height: 20px;
 }
+
+@keyframes whitebottom {
+    25% {
+        right: 20%;
+    }
+
+    50% {
+        right: 40%;
+    }
+
+    75% {
+        right: 60%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: whitebottom 3s linear infinite;
+}
+
+
+
+
+
+/* #endregion SQUARE 12 13*/
