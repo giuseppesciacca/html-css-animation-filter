@@ -72,19 +72,30 @@
 
 /* #endregion SQUARE 5 */
 
-/* #region SQUARE 5 6 7*/
+/* #region SQUARE 6 7 8*/
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
     width: 500px;
 }
 
+/* square 6 */
 .ex-6-img:hover {
     filter: grayscale(1);
 }
 
+/* square 7 */
+.ex-7-img {
+    transition: filter 1s;
+}
 
-/* #endregion SQUARE 5 6 7*/
+.ex-7-img:hover {
+    filter: hue-rotate(50deg) sepia(0.5);
+}
+
+/* square 8 */
+
+/* #endregion SQUARE 6 7 8*/
 
 .ex-9-img {
     margin: 50px 100px;
