@@ -72,11 +72,20 @@
 }
 /* #endregion SQUARE 5 */
 
+/* #region SQUARE 5 6 7*/
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
     width: 500px;
+    transition: all 0.5s;
 }
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+
+/* #endregion SQUARE 5 6 7*/
 
 .ex-9-img {
     margin: 50px 100px;
