@@ -37,11 +37,19 @@
 }
 /* #endregion SQUARE 3 */
 
+/* #region SQUARE 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 2s;
 }
+
+.ex-4-square:hover{
+    opacity: 0%;
+}
+/* #endregion SQUARE 4 */
+
 
 .ex-5-square {
     margin: 20px;
