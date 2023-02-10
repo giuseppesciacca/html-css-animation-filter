@@ -94,6 +94,14 @@
 }
 
 /* square 8 */
+.ex-8-img {
+    transition: all 1s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.5) saturate(1);
+    border-radius: 3rem;
+}
 
 /* #endregion SQUARE 6 7 8*/
 
