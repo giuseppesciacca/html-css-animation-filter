@@ -1,3 +1,4 @@
+/* #region SQUARE 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
@@ -8,12 +9,21 @@
 .ex-1-square:hover{
     background-color: red;
 }
+/* #endregion SQUARE 1 */
 
+/* #region SQUARE 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 2s;
 }
+
+.ex-2-square:active{
+    width: 100%;
+}
+/* #endregion SQUARE 2 */
+
 
 .ex-3-square {
     width: 100px;
