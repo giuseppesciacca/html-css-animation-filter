@@ -137,7 +137,7 @@
     }
 
     75% {
-        rotate: 240deg;
+        rotate: 270deg;
     }
 
     100% {
@@ -147,9 +147,31 @@
 
 /* #endregion SQUARE 10*/
 
+/* #region SQUARE 11*/
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: rotate270deg linear 2s infinite;
+}
+
+@keyframes rotate270deg {
+
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+}
+
+/* #endregion SQUARE 11*/
 
 .ex-12-button,
 .ex-13-button {
